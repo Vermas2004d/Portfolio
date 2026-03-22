@@ -7,7 +7,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import { div } from "motion/react-client";
 import animationData from '@/data/confetti.json'
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
