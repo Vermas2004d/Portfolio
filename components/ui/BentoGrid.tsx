@@ -158,13 +158,11 @@ export const BentoGridItem = ({
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
             <Lottie
-                options={{
-                  loop: copied,
-                  autoplay: copied,
-                  animationData,
-                  rendererSettings: {
-                    preserveAspectRatio: 'xMidTMid slice',
-                  }
+                loop={copied}
+                autoplay={copied}
+                animationData={animationData}
+                rendererSettings={{
+                  preserveAspectRatio: 'xMidTMid slice',
                 }}/>
             </div>
 
