@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Prescripto - Doctor Appointment Application",
     des: "A full-stack doctor appointment platform enabling patients to book consultations, upload medical files securely, and make online payments, with role-based dashboards and real-time scheduling.",
-    img: "/p1.svg",
+    img: "/prescripto.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
