@@ -13,7 +13,7 @@ const Experience = () => {
     <div className="py-20" id="testimonials">
           <h1 className="heading text-4xl font-bold">
             My
-            <span className="text-purple text-purple-400"> Work Experience</span>
+            <span className="text-purple text-purple-400"> Education</span>
           </h1>
           <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
             {workExperience.map((card, idx) => (
@@ -29,6 +29,9 @@ const Experience = () => {
                             <h1 className='text-start text-xl md:text-2xl font-bold'>
                                 {card.title}
                             </h1>
+                            <p className='text-start text-sm text-purple-400 font-medium mt-1'>
+        {card.duration}
+    </p>
                             <p className='text-start text-white-100 mt-3 font-semibold'>{card.desc}</p>
                         </div>
                     </div>

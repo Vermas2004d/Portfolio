@@ -3,6 +3,8 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
+
+//i am not using this component in my project//
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
