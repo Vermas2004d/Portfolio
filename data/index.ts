@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "Real Time Weather Application",
     des: "A responsive web app showing live weather, forecasts, and farming insights using React, Next.js, Tailwind CSS, and OpenWeatherMap API.",
-    img: "/p3.svg",
+    img: "/weather.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
